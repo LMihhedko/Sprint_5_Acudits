@@ -18,7 +18,8 @@ function showJokes() {
             }
         })
         .then(function(mensaje) {
-            //console.log(mensaje.joke);
+            //Ejercicio 1 -> console.log(mensaje.joke);
+            //Ejercicio 2
             let joke = mensaje.joke 
 			document.getElementById('joke').innerHTML = joke
         })
